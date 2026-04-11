@@ -1,0 +1,47 @@
+{
+  "config": {
+    "data_root": "./data",
+    "img_size": 32,
+    "patch_size": 4,
+    "num_classes": 10,
+    "batch_size": 256,
+    "num_workers": 2,
+    "embed_dim": 192,
+    "depth": 6,
+    "num_heads": 3,
+    "mlp_ratio": 4.0,
+    "decoder_embed_dim": 96,
+    "decoder_depth": 2,
+    "decoder_num_heads": 3,
+    "mask_ratio": 0.75,
+    "masking_strategy": "random",
+    "norm_pix_loss": true,
+    "pretrain_epochs": 50,
+    "pretrain_lr": 0.00015,
+    "weight_decay": 0.05,
+    "warmup_epochs": 5,
+    "teacher_epochs": 10,
+    "teacher_lr": 0.0005,
+    "probe_epochs": 20,
+    "probe_lr": 0.001,
+    "seed": 42,
+    "device": "cpu",
+    "ckpt_dir": "./checkpoints",
+    "results_dir": "./results"
+  },
+  "runs": {
+    "random": {
+      "best_test_acc": 0.4105,
+      "final_test_acc": 0.4094
+    },
+    "semantic_high": {
+      "best_test_acc": 0.4676,
+      "final_test_acc": 0.466
+    },
+    "semantic_low": {
+      "best_test_acc": 0.4641,
+      "final_test_acc": 0.4641
+    }
+  },
+  "total_time_sec": 71926.69330477715
+}
