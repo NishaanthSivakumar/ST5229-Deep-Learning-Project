@@ -1,1 +1,11 @@
+# Data files
 data/cifar-10-python.tar.gz
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# History folders
+.history/
