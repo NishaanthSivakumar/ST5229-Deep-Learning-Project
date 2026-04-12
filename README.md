@@ -24,13 +24,14 @@ This project aims to:
 ---
 
 ## 📂 Repository Structure
-'''
+```text
+.
 ├── Literature Review & Explanation & Examples/
 ├── Semantic Masking on CIFAR 10/
 ├── MAE experimentation on CIFAR 10/
 ├── MAE on Medical Images/
 └── .gitignore
-'''
+```
 
 ---
 
