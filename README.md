@@ -24,11 +24,13 @@ This project aims to:
 ---
 
 ## 📂 Repository Structure
+'''
 ├── Literature Review & Explanation & Examples/
 ├── Semantic Masking on CIFAR 10/
 ├── MAE experimentation on CIFAR 10/
 ├── MAE on Medical Images/
 └── .gitignore
+'''
 
 ---
 
@@ -165,7 +167,7 @@ This project provides:
 
 # 👤 Author
 
-**Gao Demin** **Kong Moon Hyeong** **Mahapatra Onkar** **Sivakumar Nishaanth**  
+**Gao Demin,** **Kong Moon Hyeong,** **Mahapatra Onkar,** **Sivakumar Nishaanth.**  
 MSc Statistics, National University of Singapore  
 
 ---
